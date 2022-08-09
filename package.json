@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/groupon/declarative-nock"
   },
+  "bugs": {
+    "url": "https://github.com/groupon/declarative-nock/issues"
+  },
   "scripts": {
     "lint": "npm-run-all lint:*",
     "lint:js": "eslint .",
@@ -47,6 +50,13 @@
     ],
     "require": "ts-node/register"
   },
+  "nlm": {
+    "license": {
+      "files": [
+        "lib"
+      ]
+    }
+  },
   "dependencies": {
     "debug": "^4.3.1",
     "nock": "^13.0.5"
@@ -84,5 +94,8 @@
     "*.js",
     "lib",
     "*.d.ts"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
