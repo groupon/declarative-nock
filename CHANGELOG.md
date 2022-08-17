@@ -1,3 +1,10 @@
+### v1.0.1 (2022-08-17)
+<a id="v1.0.1"></a>
+#### 🏡 Internal
+
+* [`e78824a`](https://github.com/groupon/declarative-nock/commit/e78824afe381902169c1ceabf20c62a78395199e) chore: trivial change to trigger re-publish
+
+
 ### v1.0.0 (2022-08-17)
 <a id="v1.0.0"></a>
 #### 🚀 New Features
