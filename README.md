@@ -3,7 +3,7 @@
 ![nlm-version](https://img.shields.io/badge/version-1.0.0-blue?logo=version&logoColor=white)
 # `declarative-nock`
 
-An opinionated module to provide an easier-to-use declarative syntax in
+An opinionated package to provide an easier-to-use declarative syntax in
 front of [nock][nock], allowing OpenAPI-like syntax for the route paths.
 
 [nock]: https://github.com/nock/nock
