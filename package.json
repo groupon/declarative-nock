@@ -87,8 +87,8 @@
     "typescript": "^4.4.3"
   },
   "author": {
-    "name": "David Bushong",
-    "email": "dbushong@groupon.com"
+    "name": "Groupon",
+    "email": "opensource@groupon.com"
   },
   "files": [
     "*.js",

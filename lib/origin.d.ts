@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2022, David Bushong
+ * Copyright (c) 2022, Groupon, Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
