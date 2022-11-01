@@ -1,3 +1,10 @@
+### v1.1.0 (2022-11-01)
+<a id="v1.1.0"></a>
+#### 🏡 Internal
+
+* [#2](https://github.com/groupon/declarative-nock/pull/2) add .addJestHooks() like .addMochaHooks() ([@dbushong](https://github.com/dbushong))
+
+
 ### v1.0.1 (2022-08-17)
 <a id="v1.0.1"></a>
 #### 🏡 Internal
