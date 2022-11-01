@@ -45,4 +45,7 @@ export declare class DeclarativeNock {
     addMochaHooks({ disableNetConnect, }?: {
         disableNetConnect?: boolean;
     }): void;
+    addJestHooks({ disableNetConnect, }?: {
+        disableNetConnect?: boolean;
+    }): void;
 }

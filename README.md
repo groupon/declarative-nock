@@ -92,6 +92,7 @@ class DeclarativeNock {
   removeMocks(): void;
   resetAll(): void;
   addMochaHooks(opts?: { disableNetConnect: boolean = true }): void;
+  addJestHooks(opts?: { disableNetConnect: boolean = true }): void;
 }
 ```
 
@@ -139,6 +140,11 @@ Additionally, if the `disableNetConnect` option is `true` (the default),
 then the `before()/after()` will disable and re-enable net connect using
 `.nock.disable/enableNetConnect()` for you.  If you don't wish this behavior,
 set `disableNetConnect: false`.
+
+#### `addJestHooks({ disableNetConnect = true })`
+
+Exactly like `addMochaHooks()` except calls `beforeAll()` and `afterAll()`
+instead of `before()` and `after()` to work with Jest.
 
 #### `nock`
 

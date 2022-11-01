@@ -59,4 +59,26 @@ export class DeclarativeNock {
     });
     afterEach(() => this.resetAll());
   }
+
+  addJestHooks({
+    disableNetConnect = true,
+  }: { disableNetConnect?: boolean } = {}) {
+    beforeAll(() => {
+      this.installMocks();
+
+      if (disableNetConnect) {
+        debug('disableNetConnect');
+        this.nock.disableNetConnect();
+      }
+    });
+    afterAll(() => {
+      this.removeMocks();
+
+      if (disableNetConnect) {
+        debug('enableNetConnect');
+        this.nock.enableNetConnect();
+      }
+    });
+    afterEach(() => this.resetAll());
+  }
 }
